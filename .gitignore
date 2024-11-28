@@ -1,0 +1,64 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Build artifacts
+dist/
+build/
+out/
+.vite/
+
+# Database files
+*.sqlite
+*.sqlite3
+db/*.sqlite*
+db/*.sqlite3*
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor-specific files
+.vscode/
+.idea/
+*.iml
+
+# Generated files
+public/assets/
+public/static/
+
+# Backend-specific
+*.pyc
+__pycache__/
+.mypy_cache/
+
+# Frontend-specific
+.eslintcache
+.next/
+.nuxt/
+.sass-cache/
+
